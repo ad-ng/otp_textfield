@@ -204,6 +204,7 @@ class _OtpTextFieldState extends State<OtpTextField> {
       alignment: widget.alignment,
       margin: widget.margin,
       child: TextFormField(
+        autofillHints: [AutofillHints.email],
         showCursor: widget.showCursor,
         keyboardType: widget.keyboardType,
         textAlign: TextAlign.center,
